@@ -1,7 +1,7 @@
 #1. Usando map extraer de una lista de listas el primer y último elemento de cada lista
-listanumeros= [[1,2,3],[4,5,6],[7,8,9]]
-primeult = list(map(lambda x: [x[0]]+[x[len(x)-1],listanumeros ))
-print(listanumeros)
+listalistas= [[1,2,3],[4,5,6],[7,8,9]]
+primeult = list(map(lambda x: [x[0]]+[x[len(x)-1]],listalistas ))
+print(primeult)
 
 #2. Dada una lista de números enteros, usando map y filter retornar 
 #una lista con los números superpares (aquellos cuyos todos sus dígitos 
